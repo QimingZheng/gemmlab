@@ -80,7 +80,7 @@ class Matrix {
   T* data() { return data_; }
 
  private:
-  int loopCounter = 4;
+  int loopCounter = 100;
   int R_, C_;
   T* data_ = nullptr;
 };
